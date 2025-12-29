@@ -1,0 +1,79 @@
+CREATE VIEW `r_all_cnv` AS
+select *
+from all_cnv
+order by Time_Stamp desc;
+
+CREATE VIEW `r_all_pump` AS
+select *
+from all_pump
+order by Time_Stamp desc;
+
+CREATE VIEW `r_cnv` AS
+select *
+from cnv
+order by Time_Stamp desc;
+
+CREATE VIEW `r_p_ax_1` AS
+select *
+from p_ax_1
+order by Time_Stamp desc;
+
+CREATE VIEW `r_p_ax_2` AS
+select *
+from p_ax_2
+order by Time_Stamp desc;
+
+CREATE VIEW `r_p_ax_3` AS
+select *
+from p_ax_3
+order by Time_Stamp desc;
+
+CREATE VIEW `r_p_ax_4` AS
+select *
+from p_ax_4
+order by Time_Stamp desc;
+
+CREATE VIEW `r_p_ax_5` AS
+select *
+from p_ax_5
+order by Time_Stamp desc;
+
+CREATE VIEW `r_p_ax_6` AS
+select *
+from p_ax_6
+order by Time_Stamp desc;
+
+CREATE VIEW `r_p_ss_1` AS
+select *
+from p_ss_1
+order by Time_Stamp desc;
+
+CREATE VIEW `r_p_ss_2` AS
+select *
+from p_ss_2
+order by Time_Stamp desc;
+
+CREATE VIEW `r_p_ss_3` AS
+select *
+from p_ss_3
+order by Time_Stamp desc;
+
+CREATE VIEW `r_p_ss_4` AS
+select *
+from p_ss_4
+order by Time_Stamp desc;
+
+CREATE VIEW `r_p_fls_1` AS
+select *
+from p_fls_1
+order by Time_Stamp desc;
+
+CREATE VIEW `r_pln` AS
+select *
+from pln
+order by Time_Stamp desc;
+
+CREATE VIEW `r_tma` AS
+select *
+from tma
+order by Time_Stamp desc;
